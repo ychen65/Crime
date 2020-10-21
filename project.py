@@ -1,4 +1,4 @@
-# Chenyu Wang
+# Yongqiang Chen
 
 # Importing BeautifulSoup, urllib, and os
 import math
