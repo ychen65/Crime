@@ -1,0 +1,17 @@
+'''
+Chenyu Wang
+Professor Zinoviev
+Intro to Data Science
+2/6/2020
+Immigration and Crime Rate
+Problem:
+	Immigration from Mexico is a commonly discussed topic in America as there is a concern about whether immigration from Mexico will cause a positive increase in crime rate at the United States border cities. To find an answer that will end the discussion, the crime rate of cities and their distance to the border would have to be analyzed. With this information, we can determine whether immigration from Mexico increases the crime rate of bordering United States cities.
+Data Procedure:
+	To find out whether there was a correlation between immigration and crime rate, data was taken from a wikipedia page that listed major cities and the total violent crime rate per 100,000 people. To help with data extraction, a program was used to get the total violent crime rate per 100,000 people and the distance of each city from the border. The border for our data was determined by the border cities of  San Ysidro, Yuma, Tucson, El Paso, Laredo, Del Rio, and Brownsville, TX. Distances for each city from the border cities were calculated by extracting a city’s coordinates and using the great circle distance formula. The distance that would be used for the graph was determined by getting a city’s distance to each border city, which was hardcoded into the program, and picking the smallest distance. Finally the program wrote the data gathered into a csv file. The file was opened in Microsoft Excel and a scatter plot graph was constructed.
+Results:
+	Based on Figure 1, the scatter plot graph of Crime Rate VS Distance displays a positive trend line, which shows a small correlation between crime rate and distance. So according to the trend line, the further a city is from the border the higher the crime rate. A majority of the points are gathered toward having a low crime rate (under 1000).
+Conclusion:
+	The significance of the results is that it shows immigration from Mexico does not positively affect crime rate in the border cities. Figure 1 displays a positive trend line, which indicates that a city that is farther away from the border would have a higher crime rate than a city closer to the border. Following the trendline, the cities closer to the border would have a smaller crime rate because of their close proximity to the border. If there was a negative trend line, then it would indicate that the closer to the border a city is, the higher the crime rate. Also, there are cities that are far from the border and they have the same crime rate as cities closer to the border. Therefore supporting that immigrants do not affect crime rate in the border cities.
+ 
+Figure 1. Crime rate VS Distance.
+'''
